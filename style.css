@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.menu h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+  text-shadow: 0 0 15px #00f2fe;
+}
+
+.menu-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fancy-btn {
+  background: linear-gradient(145deg, #4facfe, #00f2fe);
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.4rem;
+  border-radius: 50px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fancy-btn:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.fancy-btn:active {
+  transform: scale(0.98);
+}

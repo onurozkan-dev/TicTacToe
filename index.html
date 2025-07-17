@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Space Tic-Tac-Toe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="menu">
+    <h1>Space Tic-Tac-Toe</h1>
+    <div class="menu-buttons">
+      <button id="twoPlayerBtn" class="fancy-btn">👨‍🚀 2 Astronauts</button>
+      <button id="vsComputerBtn" class="fancy-btn">👽 Vs Alien (AI)</button>
+      <button id="aboutBtn" class="fancy-btn">About</button>
+    </div>
+  </div>
+
+  <div class="game" style="display: none;">
+    <h2 id="gameTitle">Space Tic-Tac-Toe</h2>
+    <div class="board" id="board"></div>
+    <div class="status" id="status">Astronaut's turn</div>
+    <div class="game-buttons">
+      <button id="resetBtn" class="fancy-btn">Reset Game</button>
+      <button id="backBtn" class="fancy-btn">Back to Menu</button>
+    </div>
+  </div>
+
+  <div class="about" style="display: none; text-align: center;">
+    <h2>About</h2>
+    <p>This Tic-Tac-Toe game was customized by Onur Özkan. 🚀 He’s a Turkish coder, designer, and future Software conqueror!
+    If you want to contact me, just mail to:</p>
+    <h2>Mail to me for any copyright issue!</h2>
+    <p>onurozkn.dev@gmail.com</p>
+    <button id="backFromAboutBtn" class="fancy-btn">Back to Menu</button>
+  </div>
+</body>
+</html>
